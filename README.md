@@ -17,6 +17,7 @@ Python 3
 ### Assumptions
 - The first 3 digits of the product ID are a prefix 
 - There will be 9 remaining digits of the product ID
+- The product ID is in digits (numbers only)
 - The remaining digits of the product ID (140007917) are the digits of the ISBN excluding the error control digit.
 
 ## Author

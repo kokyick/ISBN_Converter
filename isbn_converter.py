@@ -41,7 +41,7 @@ def productIdToISBN(productId):
             _weightedSum = _weightedSum + _cal
             _counter+=1
 
-        # which is the remaining mod of the weighted sum
+        # last error control digit
         _lastdigit = 0
 
         #if mod is not zero, need to find the last digit to get a vaild ISBN
